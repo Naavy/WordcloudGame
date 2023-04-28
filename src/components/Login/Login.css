@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px #e2e2e2;
+}
+
+.step-button {
+  border: 1px solid #74ace6;
+  color: #74ace6;
+  background-color: transparent;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px 45px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.step-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+}

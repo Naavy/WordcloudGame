@@ -1,0 +1,55 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.step-button {
+  border: 1px solid #74ace6;
+  color: #74ace6;
+  background-color: transparent;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px 45px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.words-container {
+  position: relative;
+  border: 1px solid #000;
+  width: 60%;
+  height: 50vh;
+}
+
+.word-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+  margin: 20px;
+}
+
+.selected-word {
+  position: relative;
+  color: #b0b0b0;
+}
+
+.word {
+  position: relative;
+}
+
+.answer {
+  position: absolute;
+  top: -10px;
+  opacity: 0.7;
+}
+
+.good-word {
+  color: #b0d386;
+}
+
+.bad-word {
+  color: #f3554b;
+}
