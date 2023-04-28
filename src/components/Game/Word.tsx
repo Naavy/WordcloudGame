@@ -52,9 +52,9 @@ const Word = ({ word, goodWords, checkMode }: WordType) => {
       disabled={checkMode}
     >
       <span className={`${selectedClassName} ${checkMode && correctClassName}`}>
-        {checkMode && isCorrect && <span className="answer">dobrze</span>}
+        {checkMode && isCorrect && <span className="answer">Good</span>}
         {checkMode && isCorrect === false && (
-          <span className="answer">źle</span>
+          <span className="answer">Bad</span>
         )}
         {word}
       </span>
